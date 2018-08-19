@@ -1,5 +1,5 @@
 # CNN_RL_PACMAN
-This is a CNN model that with help of reinforcement learning af deepQlearning manages, too navigate pacman around in the maze.
+This is a CNN model that with help of reinforcement learning and deepQlearning manages, too navigate pacman around in the maze.
 
 
 What i have used for this model is OpenAI's gym enviroment, where they offer all atari games and their controls. Then i have made a model with the use of keras for the CNN model that analyzes the enviroment which is the raw pixels, and keras-rl for the Reinforcement learning. I have used deepQlearning too this problem, it is based around the theory of having an enviorment in pacman thats the maze, and an agent which is pacman in this case. The enviroment sends a state too the agent, the agent then makes an action which results in a new state and a reward. The purpose is then too optimize the reward, and this goes on in a loop. 
